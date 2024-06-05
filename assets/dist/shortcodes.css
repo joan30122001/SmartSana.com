@@ -908,7 +908,7 @@
 .flat-service .service-box {
   padding: 50px 20px;
   background-color: var(--primary-color);
-  border-radius: 20px;
+  border-radius: 0px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -961,7 +961,7 @@
 .flat-service .service-box .icon-service.style-3 {
   /* background: #1DE2CF; */
   /* box-shadow: -5px 15px 30px rgba(29, 226, 207, 0.301961); */
-  box-shadow: -5px 15px 30px rgba(160, 200, 58, 1);
+  box-shadow: -5px 15px 30px rgba(242, 160, 7, 1);
 }
 .flat-service .service-box .icon-service.style-4 {
   /* background: #FCDC00; */
@@ -1004,7 +1004,7 @@
 }
 .flat-service .service-box .bt3:hover {
   /* background: var(--primary-color3); */
-  background: #A0C83A;
+  background: #F2A007;
   color: var(--primary-color);
 }
 .flat-service .service-box .bt4:hover {
