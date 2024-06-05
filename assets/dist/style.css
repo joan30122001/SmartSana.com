@@ -1721,11 +1721,11 @@ header {
 .widget-logo .logo-footer {
   margin-bottom: 24px;
 }
-.widget-logo .logo-footer a {
+/* .widget-logo .logo-footer a {
   font-size: 36px;
   font-weight: bold;
   color: var(--primary-color3);
-}
+} */
 .widget-logo p {
   padding-right: 35px;
   color: rgba(156, 153, 174, 0.75);
