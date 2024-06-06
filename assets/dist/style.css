@@ -1739,6 +1739,7 @@ video {
 #footer.home {
   /* background: #F6F7FA; */
   background: #2C3E50;
+  opacity: 0.8;
   font-size: 12px;
 
 }
@@ -1994,6 +1995,7 @@ video {
 .widget-social-footer.home-style {
   /* background: #F6F7FA; */
   background: #2C3E50;
+  opacity: 0.8;
   border-top: 1px solid var(--primary-color5);
 }
 .widget-social-footer.home-style .title-bottom {
