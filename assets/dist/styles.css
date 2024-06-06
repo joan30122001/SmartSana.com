@@ -1,0 +1,19 @@
+.privacy-title{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: #eee;
+    margin-bottom: 25px;
+}
+.privacy-title h2{
+    font-weight: bold;
+}
+.privacy-content{
+    margin-bottom: 50px;
+}
+.privacy-content p{
+    text-align: justify;
+}
+.privacy-content h5{
+    margin-top: 25px;
+}
