@@ -33,7 +33,13 @@
     </div> -->
     <!-- /preload -->
 
-    <div id="particles-js" class="particles-js"></div>
+    <!-- <div id="particles-js" class="particles-js"></div> -->
+    <div class="video-background">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/images/logo/Solar.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
 
     <div id="wrapper">
         <div id="page" class="clearfix">
@@ -224,33 +230,6 @@
     <script src="assets/js/app.js"></script>
 
     <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
-
-
-    <!-- <script>
-        $(document).ready(function(){
-    
-    var count_particles, stats, update;
-   stats = new Stats;
-   stats.setMode(0);
-   stats.domElement.style.position = 'absolute';
-   stats.domElement.style.left = '0px';
-   stats.domElement.style.top = '0px';
-   stats.domElement.style.color = 'red';
-   document.body.appendChild(stats.domElement);
-   count_particles = document.querySelector('.js-count-particles');
-   update = function() {
-     stats.begin();
-     stats.end();
-     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-       count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-     }
-     requestAnimationFrame(update);
-   };
-   requestAnimationFrame(update);
-     
-     
- });
-    </script> -->
    
 
 </body>
